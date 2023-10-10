@@ -1,21 +1,19 @@
-# NoAnnoyance (fork)
+# Always Ready
 
-This extension is a fork of the original, that adds support for GNOME 44
+This extension is a full rewrite of the No Annoyance (fork), with GNOME 45 support.
 
 ## About
-Another extension, that removes the 'Window is ready' notification and puts the window into focus.  
-In contrast to all the other extensions, this uses ES6 syntax and is actively maintained.
 
-This is a fork of https://github.com/sindex/no-annoyance, so thank you Alex for the work you already made.
+Yet another extension that removes the "Window is ready" notification, instantly switching WM's focus to the app you've opened.
+
+This is a rewrite of the no longer maintained https://github.com/jirkavrba/noannoyance
 
 ## Supported GNOME versions
-- 40
-- 41
-- 42
-- 43
-- 44
+- 45
 
 ## Installation
-1. Run `git clone git@github.com:jirkavrba/noannoyance.git`
-2. Run `mv noannoyance ~/.local/share/gnome-shell/extensions/noannoyance@vrba.dev`
-3. Activate the extension in GNOME Tweaks
+1. Clone the extension: `git clone git@github.com:abashurov/noannoyance.git`
+2. Add it into the local extension storage: `mv noannoyance ~/.local/share/gnome-shell/extensions/noannoyance@abash.space`
+3. Restart the Wayland session
+4. Enable the extension: `gnome-extensions enable noannoyance@abash.space`
+
